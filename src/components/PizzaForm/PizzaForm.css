@@ -1,0 +1,268 @@
+body {
+    color: white;
+    margin-top: 0;
+  }
+  
+  .container2 {
+    margin: 0 auto;
+    text-align: left;
+    color: black;
+  }
+  
+  .header {
+    background-color: #ce2829;
+    width: 100%;
+  }
+  .tekno {
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family: "Quattrocento", sans-serif;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 10px 10px;
+    padding: 10px 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.6s ease;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .fırsat {
+    text-align: center;
+  }
+  
+  .siparis-body {
+    margin: 0 auto;
+    text-align: left;
+    color: black;
+    width: 600px;
+  }
+  
+  #toppings-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #toppings-checkboxes label {
+    flex-basis: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #toppings-checkboxes label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  #toppings-checkboxes input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #special-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #special-text::placeholder {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .cizgi {
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  label[for="size-dropdown"] {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  select[name="size-dropdown"] {
+    margin-bottom: 20px;
+  } 
+  label[for="crust-dropdown"] {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  select[name="crust-dropdown"] {
+    margin-bottom: 20px;
+  }
+  
+  label[for="toppings-checkboxes"] {
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  label[for="name-input"] {
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  label[for="special-text"] {
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  #name-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  label[for="address-input"] {
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  #address-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .siparis-bolumu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    flex: 2;
+  }
+  
+  .siparis-bolumu > div:first-child {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .siparis-bolumu > div:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .siparis-bolumu > div:nth-child(3) {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .secimler {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #order-button {
+    width: 100%;
+    background-color: #fdc913;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    cursor: pointer;
+  }
+  
+  #order-button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .minus-button,
+  .plus-button {
+    width: 2.5rem;
+    border: 0.5px solid #ccc;
+    background-color: #fdc913;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .adet-sayisi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    font-size: 1em;
+  }
+  
+  .adet-kutusu {
+    border: 0.5px solid #ccc;
+    width: 2.5rem;
+    display: inline-block;
+  }
+  
+  .adet-bolumu {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .adet-ve-siparis {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer {
+    height: 10rem;
+  }
